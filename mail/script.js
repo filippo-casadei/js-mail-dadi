@@ -17,3 +17,7 @@ let emailUtente = prompt("Inserisci qui la tua mail");
 let trovato = false;
 
 // step 4: creo un ciclo for che legga tutte le mail.
+for (let i = 0; i < emails.length; i++) {
+    const element = emails[i];
+    
+}
