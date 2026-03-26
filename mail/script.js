@@ -2,3 +2,9 @@
 // Chiedi all utente la sua email,
 // Controlla che sia nella lista di chi può accedere,
 // Stampa un messaggio appropriato sull’esito del controllo, utilizzando un ciclo for.
+
+
+// step 1: creo un array che contenga 10 mail.
+const emails = ["Scar@gmail.com", "Jafar@gmail.com", "Ursula@gmail.com", "Malefica@gmail.com",
+    "Crudelia@yahoo.it", "Ade@libero.it", "Gaston@libero.it", "Frollo@gmail.com",
+    "Uncino@libero.it", "Yzma@yahoo.com"]
