@@ -15,3 +15,5 @@ let emailUtente = prompt("Inserisci qui la tua mail");
 // step 3: creo la variabile "trovato" alla quale darò valore "false" di base,
 // che cambierà in true nel caso di corrispondenza con la mail inserita.
 let trovato = false;
+
+// step 4: creo un ciclo for che legga tutte le mail.
