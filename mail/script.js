@@ -19,5 +19,15 @@ let trovato = false;
 // step 4: creo un ciclo for che legga tutte le mail.
 for (let i = 0; i < emails.length; i++) {
     const element = emails[i];
+    if (emails[i] === emailUtente) {
+        trovato = true
+    }
     
 }
+
+// step 5: aggiungo un if/else che stampi 2 cose diverse a seconda se la mail ha o meno una
+// corrispondenza con quelle dell'array:
+if (trovato === false)
+console.log("Accesso Negato");
+else 
+console.log("Accesso consentito");
