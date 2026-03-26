@@ -11,3 +11,7 @@ const emails = ["Scar@gmail.com", "Jafar@gmail.com", "Ursula@gmail.com", "Malefi
 
 // step 2: devo chiedere un input all'utente quindi inserirò un prompt.
 let emailUtente = prompt("Inserisci qui la tua mail");
+
+// step 3: creo la variabile "trovato" alla quale darò valore "false" di base,
+// che cambierà in true nel caso di corrispondenza con la mail inserita.
+let trovato = false;
