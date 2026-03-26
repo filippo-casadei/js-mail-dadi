@@ -22,5 +22,16 @@ let tiroGiocatore = dadi[indiceCasualeGiocatore];
 const indiceCasualePc = Math.floor (Math.random() *6);
 let tiroPc = dadi[indiceCasualePc];
 
+
 // step 5: creo un if dove se è maggiore TiroGiocatore, giocatore vince, se è maggiore
 // tiroPc, Pc vince e se esce lo stesso numero ci sarà un pareggio.
+
+if ( tiroGiocatore > tiroPc) {
+    console.log("Il Giocatore ha vinto!");
+}
+else if (tiroPc > tiroGiocatore) {
+    console.log("Il Pc ha vinto!");
+}
+else {
+    console.log("Pareggio!");
+}
