@@ -22,7 +22,8 @@ let tiroGiocatore = dadi[indiceCasualeGiocatore];
 const indiceCasualePc = Math.floor (Math.random() *6);
 let tiroPc = dadi[indiceCasualePc];
 
-
+console.log("Numero Giocatore" + tiroGiocatore);
+console.log("Numero Pc" + tiroPc);
 // step 5: creo un if dove se è maggiore TiroGiocatore, giocatore vince, se è maggiore
 // tiroPc, Pc vince e se esce lo stesso numero ci sarà un pareggio.
 
