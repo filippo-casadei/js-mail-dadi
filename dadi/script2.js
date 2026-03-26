@@ -14,3 +14,11 @@ const indiceCasuale = Math.floor (Math.random()  *6);
 
 // step 3: creo 2 variabili una tiroGiocatore l'altra tiroPc 
 let tiroGiocatore = dadi[indiceCasuale];
+
+// qui mi sono reso conto che servono due indici casuali altrimenti se uso lo stesso,
+// giocatore e pc avranno sempre lo stesso numero.
+
+//step 4: creo un indice casuale per il pc e la sua variabile tiro.
+const indiceCasualePc = Math.floor (Math.random() *6);
+let tiroPc = dadi[indiceCasualePc];
+
