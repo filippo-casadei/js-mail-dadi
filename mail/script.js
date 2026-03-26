@@ -8,3 +8,6 @@
 const emails = ["Scar@gmail.com", "Jafar@gmail.com", "Ursula@gmail.com", "Malefica@gmail.com",
     "Crudelia@yahoo.it", "Ade@libero.it", "Gaston@libero.it", "Frollo@gmail.com",
     "Uncino@libero.it", "Yzma@yahoo.com"]
+
+// step 2: devo chiedere un input all'utente quindi inserirò un prompt.
+let emailUtente = prompt("Inserisci qui la tua mail");
