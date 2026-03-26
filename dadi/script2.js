@@ -11,3 +11,6 @@ const dadi = [1, 2, 3, 4, 5, 6];
 // massimo a qualcosa tipo 5,99999, con math.floor arrotondo per difetto e il risultato
 // corrispodnerà al valore dell'indice di un elemento dell'array
 const indiceCasuale = Math.floor (Math.random()  *6);
+
+// step 3: creo 2 variabili una tiroGiocatore l'altra tiroPc 
+let tiroGiocatore = dadi[indiceCasuale];
